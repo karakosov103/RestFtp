@@ -2,7 +2,7 @@ ftp:
   sslPassword: qwerty
   listenerName: default
   server:
-    port: 2221
+    port: 21
     passivePorts: 21000-21010
     passiveAddress: 3.126.94.182
   user:
