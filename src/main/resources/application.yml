@@ -1,0 +1,18 @@
+ftp:
+  sslPassword: qwerty
+  listenerName: default
+  server:
+    port: 2221
+    passivePorts: 21000-21010
+    passiveAddress: 3.126.94.182
+  user:
+    homeDirectory: src/main/resources/ftphome
+    username: test
+    password: test
+    token: qwerty
+
+logging:
+  level:
+    org:
+      springframework:
+        web: DEBUG
